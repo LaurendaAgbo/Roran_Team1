@@ -1,6 +1,6 @@
 #quote blockquote{
   display:block;
-  /* padding-top: 15px; */
+  padding-left: 58px;
   
   /*Font*/
   font-family: "Open Sans";
@@ -21,7 +21,7 @@ blockquote::before{
   
   /*Positioning*/
 	position: relative;
-	left: -50%;
+	left: -48%;
 	top: -75px;
 }
 
@@ -36,7 +36,7 @@ blockquote::after{
   
   /*Positioning*/
   position: absolute;
-  right: 12%;
+  right: 13%;
   top: 28px;
 }
 
