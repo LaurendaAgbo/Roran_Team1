@@ -1,8 +1,393 @@
+/*****     MAIN     STYLE       *****/
+
+body {
+	font-family: "Open Sans";
+	color: #303030;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.row {
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+a {
+	font-family: "Open Sans";
+	font-style: normal;
+	font-size: 1.0em;
+}
+
+a:focus, a:hover {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+#aboutMain, #numbers, #clients, #services, #services123, #quote, #teamMain, #members, #portfolio, #portfolioItems, #contact {
+	padding-top: 3rem;	
+}
+ 
+#aboutDescription, #blocks, #numbers, #clients, #services456, #quote, #teamMain, #members {
+	padding-bottom: 3rem;
+}
+
+#serviceName, #teamName, #portfolioName, #contactName {
+	margin-bottom: -10px;
+}
+
+#serviceName h3, #teamName h3, #portfolioName h3, #contactName h3 {
+	font-family: "Open Sans Extrabold";
+	font-size: 27px;
+	color: #303030;
+}
+
+#serviceName p, #teamName p, #portfolioName p, #contactName p {
+	font-size: 21px;
+	color: #979797;
+}
+ 
+#aboutMain hr, #clients hr, #services hr, #quote hr, #teamMain hr, #portfolio hr, #contact hr {
+	width: 110px;
+}
+
+#barre hr, #quote hr, #clients hr  {
+	border-top: 1px solid white;
+}
+
+#navigation, #portfolioTitle {
+	padding-top: 20px;
+}
+
+#navigation a:hover, #navigation a:focus, 
+#portfolioTitle a:hover, #portfolioTitle a:focus, 
+#logo a:hover, #logo a:focus {
+	color: #303030;
+}
+  
+#navigation .active a, 
+#portfolioTitle .active a {
+	color: #303030;
+}
+
+#socialMedia a, #socialMedia2 a, #socialMedia3 a {
+	margin-right: 10px;
+}
+
+/*****     FIN    MAIN     STYLE       *****/
+
+
 /*****     DEBUT     LAURENDA       *****/
+
+/***** DEBUT HEADER   ****/
+#home {
+	background-color: #39a38f;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	width: 100%;
+	color: #fff;
+	height: 600px;
+}
+
+#headerText {
+	padding-left: 0px;
+    margin-top: 50px;
+}
+
+#headerText p {
+	line-height: 0.8em;
+}
+
+#headerText a {
+	font-size: 18px;
+	padding-left: 5px;
+	text-shadow: 1px 3px 0px rgba(10, 12, 12, 0.1);
+	font-style: italic;
+}
+
+#barre {
+	padding-left: 5px;
+}
+
+#rectangle {
+	width: 100%;
+	height: 80px;
+	background-color: rgba(10, 10, 10, 0.3);
+	position:  relative;
+    top: 65px;
+	right: -118px;
+	padding-right: 145px;
+    text-align: right;
+    padding-top: 14px;
+}
+
+#rectangle p {
+	font-size: 18px;
+	text-shadow: 1px 3px 0px rgba(10, 12, 12, 0.1);
+	font-style: bold;
+	color: white;
+}
+
+#oblique {
+	width: 100%;
+    height: 110px;
+    background-color: #39a38f;
+    position: relative;
+    top: 41px;
+    right: -235px;
+    transform: rotate(125deg);
+    z-index: 99; /* Standard syntax */
+}
+
+#slidetext1 {
+	font-family: "Open Sans Extrabold";
+	font-size: 100px;
+	text-shadow: 3px 4px 0px rgba(10, 12, 12, 0.1);
+}
+
+#slidetext2 {
+	font-family: "Open Sans Regular";
+	font-size: 54px;
+	padding-left: 5px;
+	text-shadow: 3px 4px 0px rgba(10, 12, 12, 0.1);
+}
+
+#slidetext3 {
+	font-family: "Open Sans Regular";
+	font-size: 34px;
+	padding-left: 5px;
+	text-shadow: 1px 3px 0px rgba(10, 12, 12, 0.1);
+}
+
+/*****   Début Flêches défilantes   ****/
+ 
+#arrows {
+	position: relative;
+}
+
+.arrowsDemo a {
+	position: absolute;
+	bottom: -160px;
+	left: 50%;
+	color: white;
+}
+
+.arrowsDemo a:hover {
+	opacity: .5;
+	color: white;
+}
+
+#arrows a span {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 24px;
+	height: 24px;
+	margin-left: -12px;
+	-webkit-animation: sdb07 2s infinite;
+	animation: sdb07 2s infinite;
+	opacity: 0;
+	box-sizing: border-box;
+}
+
+#arrows a span:nth-of-type(1) {
+	-webkit-animation-delay: 0s;
+	animation-delay: 0s;
+}
+
+#arrows a span:nth-of-type(2) {
+	top: 16px;
+	-webkit-animation-delay: .15s;
+	animation-delay: .15s;
+}
+
+#arrows a span:nth-of-type(3) {
+	top: 32px;
+	-webkit-animation-delay: .3s;
+	animation-delay: .3s;
+}
+
+@-webkit-keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+@keyframes sdb07 {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0;
+	}
+}
+
+/*****   Fin Flêches défilantes   ****/
+ 
+/*****   Début Menu   ****/
+
+#menu {
+	margin-bottom: -15px;
+}  
+#logo a {
+	font-family: "Open Sans Extrabold";
+	font-size: 30px;
+	color: #303030;
+	margin-top: 5px;
+}
+
+#logo a span {
+	font-family: "Open Sans Extrabold";
+	font-size: 30px;
+	color: #39a38f;
+ }
+
+ #navigation ul li {
+	width: 137px;
+ }
+
+#navigation a {
+	font-family: "Open Sans Regular";
+	font-size: 14px;
+	color: #a4a4a4;
+}
+
+#socialMedia {
+	padding-top: 25px;
+ }
+ 
+#socialMedia a {
+	color: #a4a4a4;
+}
+
+/*****   Fin Menu   ****/
+
+/***** FIN HEADER   ****/
+
+/*****   Début SERVICE   ****/
+
+.serviceTitle {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.colour {
+	color: #39a38f;
+}
+
+#services #services123  hr, #services #services456  hr {
+	width: 80px;
+	margin-left: 0px;
+	margin-top: 0px;
+}
+
+.serviceDescription {
+	font-size: 13px;
+	color: #707070;
+	margin-top: 1.6rem;
+	padding-right: 10px;
+}
+
+#services456 {
+	margin-top: 2rem;
+}
+
+#quote {
+	background-color: #3da591;
+	color: #fff;
+}
+
+#author {
+	margin-top: 1.5rem;
+}
+
+/*****   Fin SERVICE   ****/
+
+/*****   Début Portfolio   ****/
+#portfolioTitle a {
+	font-family: "Open Sans";
+	font-size: 16px;
+	color: #959595;
+	padding-right: 28px;
+}
+
+#portfolioTitle {
+	padding-left: 34px;
+}
+
+.pur {
+	background-color: #39a38f;
+}
+
+.clair {
+	background-color: #62c5b2;
+}
+
+#portfolioItems .pur, #portfolioItems .clair {
+	padding-top: 55px;
+	height: 252px;
+	color: #fff;
+	text-align: center;
+}
+
+#portfolioItems a {
+	font-size: 18px;
+	color: #fff;
+	font-weight: bold;
+	padding-top: 10px;
+}
+
+/*****   Fin Portfolio   ****/
+
+/*****   Début Footer   ****/
+
+#footer {
+	background-color: #d8d8d8;
+	color: #737373;
+	font-size: 15px;
+}
+
+#copyright, #socialMedia2, #socialMedia3 {
+    padding-top: 20px;
+    text-align: right;
+}
+
+#socialMedia2 a {
+	color: #737373;
+}
+
+#arrow {
+	padding-top: 10px;
+	padding-left: 25%;
+}
+
+#arrow a {
+	color: #737373;
+}
+
+/*****   Fin Footer   ****/
 
 /*****     FIN     LAURENDA       *****/
 
 
 /*****     DEBUT     ARMANCE       *****/
+ 
+#socialMedia3 a {
+	color: #8c8c8c;
+}
 
 /*****     FIN     ARMANCE       *****/
