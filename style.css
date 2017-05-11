@@ -28,19 +28,19 @@ ul {
 	list-style: none;
 }
 
-#aboutMain, #numbers, #clients, #services, #services123, #quote, #teamMain, #members, #portfolio, #portfolioItems, #contact {
-	padding-top: 3rem;	
+#aboutMain, #blocks, #numbers, #services, #services123, #quote, #teamMain, #members, #portfolio, #portfolioItems, #contact {
+	padding-top: 3rem;
 }
- 
-#aboutDescription, #blocks, #numbers, #clients, #services456, #quote, #teamMain, #members {
+
+#blocks, #numbers, #clients, #services456, #quote, #teamMain, #members {
 	padding-bottom: 3rem;
 }
 
-#serviceName, #teamName, #portfolioName, #contactName {
+#clientsTitle, #serviceName, #teamName, #portfolioName, #contactName {
 	margin-bottom: -10px;
 }
 
-#serviceName h3, #teamName h3, #portfolioName h3, #contactName h3 {
+#clientsTitle h3, #serviceName h3, #teamName h3, #portfolioName h3, #contactName h3 {
 	font-family: "Open Sans Extrabold";
 	font-size: 27px;
 	color: #303030;
@@ -50,7 +50,7 @@ ul {
 	font-size: 21px;
 	color: #979797;
 }
- 
+
 #aboutMain hr, #clients hr, #services hr, #quote hr, #teamMain hr, #portfolio hr, #contact hr {
 	width: 110px;
 }
@@ -59,17 +59,17 @@ ul {
 	border-top: 1px solid white;
 }
 
-#navigation, #portfolioTitle {
+#navigation, #portfolioTitle, #aboutDescription {
 	padding-top: 20px;
 }
 
-#navigation a:hover, #navigation a:focus, 
-#portfolioTitle a:hover, #portfolioTitle a:focus, 
+#navigation a:hover, #navigation a:focus,
+#portfolioTitle a:hover, #portfolioTitle a:focus,
 #logo a:hover, #logo a:focus {
 	color: #303030;
 }
-  
-#navigation .active a, 
+
+#navigation .active a,
 #portfolioTitle .active a {
 	color: #303030;
 }
@@ -164,8 +164,8 @@ ul {
 	text-shadow: 1px 3px 0px rgba(10, 12, 12, 0.1);
 }
 
-/*****   Début Flêches défilantes   ****/
- 
+/*****   Dï¿½but Flï¿½ches dï¿½filantes   ****/
+
 #arrows {
 	position: relative;
 }
@@ -236,13 +236,13 @@ ul {
 	}
 }
 
-/*****   Fin Flêches défilantes   ****/
- 
-/*****   Début Menu   ****/
+/*****   Fin Flï¿½ches dï¿½filantes   ****/
+
+/*****   Dï¿½but Menu   ****/
 
 #menu {
 	margin-bottom: -15px;
-}  
+}
 #logo a {
 	font-family: "Open Sans Extrabold";
 	font-size: 30px;
@@ -269,7 +269,7 @@ ul {
 #socialMedia {
 	padding-top: 25px;
  }
- 
+
 #socialMedia a {
 	color: #a4a4a4;
 }
@@ -278,7 +278,7 @@ ul {
 
 /***** FIN HEADER   ****/
 
-/*****   Début SERVICE   ****/
+/*****   Dï¿½but SERVICE   ****/
 
 .serviceTitle {
 	font-size: 18px;
@@ -317,7 +317,7 @@ ul {
 
 /*****   Fin SERVICE   ****/
 
-/*****   Début Portfolio   ****/
+/*****   Dï¿½but Portfolio   ****/
 #portfolioTitle a {
 	font-family: "Open Sans";
 	font-size: 16px;
@@ -353,7 +353,7 @@ ul {
 
 /*****   Fin Portfolio   ****/
 
-/*****   Début Footer   ****/
+/*****   Dï¿½but Footer   ****/
 
 #footer {
 	background-color: #d8d8d8;
@@ -385,9 +385,295 @@ ul {
 
 
 /*****     DEBUT     ARMANCE       *****/
- 
+
+/*****   Dï¿½but ABOUT   ****/
+
+#aboutName {
+	margin-bottom: -10px;
+}
+
+#aboutName h3 {
+	font-family: "Open Sans Extrabold";
+	font-size: 45px;
+	color: #303030;
+}
+
+#aboutName p {
+	font-size: 30px;
+	color: #979797;
+}
+
+#aboutName h3 span {
+	color: #39a38f;
+}
+
+#aboutDescription{
+  text-align: center;
+ 	font-size: 17px;
+	color: #979797;
+}
+
+.blockIcon {
+	margin-left: 40%;
+}
+
+.blockTitle {
+	font-family: "Open Sans Regular";
+	font-size: 18px;
+	color: #303030;
+	margin-top: 1.8rem;
+}
+
+#blocks .blockTitle .couleur{
+	color: #39a38f;
+}
+
+.blockDescription {
+	font-family: "Open Sans Regular";
+	font-size: 13px;
+	color: #707070;
+	margin-top: 1.5rem;
+	padding-left: 60px;
+    padding-right: 60px;
+}
+
+#numbers {
+ padding-top: 50px;
+ background-color: #f0f0f0;
+ font-family: "Open Sans Regular";
+}
+
+.numbers1234 {
+	padding-right: 0px;
+}
+
+#number1, #number4{
+	padding-left: 75px;
+}
+
+#number2 {
+	padding-left: 55px;
+}
+
+#number3 {
+	padding-left: 15px;
+}
+
+
+
+.iconsalignrigth{
+    padding-right: 0px;
+    padding-left: 0px;
+	padding-top: 13px;
+}
+
+.number1234 {
+  font-family: "Open Sans Extrabold";
+  padding-right: 0px;
+  font-size: 50px;
+  color: #39a38f;
+    margin-bottom: 0px;
+}
+
+.numberTitle {
+  padding-right: 0px;
+  font-size: 18px;
+  color: #7a7a7a;
+  margin-bottom: 0px;
+    position: relative;
+    top: -13px;
+}
+
+.numberTitle1 {
+  padding-left: 5px;
+}
+
+.numberTitle2 {
+  width: 142px;
+}
+
+.iconsa1 {
+	padding-left: 10px;
+}
+
+.iconsa2 {
+	padding-left: 20px;
+}
+
+
+#clients{
+   background-color: #39a38f;
+}
+
+#clientsTitle {
+	padding-top: 5rem;	
+}
+
+#clientsTitle p {
+	font-family: "Open Sans Regular";
+	font-size: 23px;
+	margin-bottom: 10px;
+}
+
+#clientsTitle h3, #clientsTitle p {
+	color: #fff;
+}
+
+/*****   FIN ABOUT   ****/
+
+/*****   DÃ©but TEAM   ****/
+
+#members {
+	background-color: #f0f0f0;
+}
+
+#teamMain {
+	padding-bottom: 0.6rem;
+}
+
+.arrow-up{
+    width: 0px;
+    height: 0px;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 25px solid #f0f0f0;
+    margin-left :660px;
+} 
+
+/*****   FIN TEAM   ****/
+
 #socialMedia3 a {
 	color: #8c8c8c;
 }
 
+#creative hr, #vert hr, #team hr {
+width: 100px;
+}
+
+#team1{
+font-style: "Open Sans Extrabold";
+font-weight: bold;
+font-size: 30px;
+}
+#team2{
+ color: #979797;
+ font-size: 22px;
+}
+.list-group-item{
+  padding-bottom: 35px;
+}
+#carousel{
+ padding-bottom: 60px;
+ padding-top: 50px;
+ background-color: #d8d8d8;
+}
+#pad{
+padding-right: 28px;
+padding-left: 200px;
+}
+.card-block{
+  background-color: #39a38f;
+}
+.card-text{
+  height: 160px;
+}
+.list-group{
+  height: 80px;
+  border-bottom: 3px solid #39a38f;
+}
+#esp{
+  padding-left: 10px;
+}
+#jo{
+  margin-top: 25px;
+}
+#faceicon{
+  padding-left: 110px;
+  margin-top: 25px;
+}
+.carousel-control-prev {
+  padding-right: 150px;
+  }
+
+
+  #contact{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+  }
+  #contact1{
+  font-weight: bold;
+  font-size: 25px;
+  font-style: "Open Sans Extrabold";
+  }
+  #contact2{
+   color: #979797;
+  }
+#contact3{
+  background-color: #39a38f;
+  height: 500px;
+  position:
+}
+.toolip{
+  text-align: center;
+  border: 1px white solid;
+  background: white;
+  width: 150px;
+  height:50px;
+}
+#Ro{
+  text-align: center;
+  padding-right: 50px;
+  padding-top: 150px;
+  padding-left: 600px;
+  padding-bottom: 70px;
+  }
+  .arrow-down {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid white;
+  margin-left: 56px;
+  margin-top: -10px
+}
+
+#contact4{
+  background-color: #d8d8d8;
+  height: 500px;
+  }
+
+#requiered{
+  color: #39a38f;
+padding-left: 154px
+  }
+.btn {
+  background-color: #39a38f;
+}
+
+#formulaire{
+  padding-top: 40px;
+  margin-top: 10px;
+  border:10px solid white;
+  background-color: white;
+  height: 650px;
+  width: 1000px;
+  margin-left: 149px;
+
+}
+.form-group{
+  margin-bottom: -1rem;
+}
+
+#contactinfo{
+  padding-left: 200px;
+}
+#info{
+  font-size: 15px;
+  padding: 0px;
+
+}
+#row3{
+  padding-right: 100px;
+}
 /*****     FIN     ARMANCE       *****/
