@@ -28,11 +28,11 @@ ul {
 	list-style: none;
 }
 
-#aboutMain, #blocks, #numbers, #services, #services123, #quote, #teamMain, #members, #portfolio, #portfolioItems, #contact {
+#aboutMain, #blocks, #numbers, #services, #services123, #quote, #teamMain, #members, #portfolio, #portfolioItems {
 	padding-top: 3rem;
 }
 
-#blocks, #numbers, #clients, #services456, #quote, #teamMain, #members {
+#blocks, #numbers, #clients, #services456, #quote, #teamMain {
 	padding-bottom: 3rem;
 }
 
@@ -74,7 +74,7 @@ ul {
 	color: #303030;
 }
 
-#socialMedia a, #socialMedia2 a, #socialMedia3 a {
+#socialMedia a, #socialMedia2 a, .socialMedia3 a {
 	margin-right: 10px;
 }
 
@@ -243,16 +243,14 @@ ul {
 #menu {
 	margin-bottom: -15px;
 }
-#logo a {
+#logo a, #Ro p {
 	font-family: "Open Sans Extrabold";
 	font-size: 30px;
 	color: #303030;
 	margin-top: 5px;
 }
 
-#logo a span {
-	font-family: "Open Sans Extrabold";
-	font-size: 30px;
+#logo a span, #Ro p span {
 	color: #39a38f;
  }
 
@@ -361,7 +359,7 @@ ul {
 	font-size: 15px;
 }
 
-#copyright, #socialMedia2, #socialMedia3 {
+#copyright, #socialMedia2, .socialMedia3 {
     padding-top: 20px;
     text-align: right;
 }
@@ -525,6 +523,7 @@ ul {
 
 #members {
 	background-color: #f0f0f0;
+	padding-bottom: 4.2rem;
 }
 
 #teamMain {
@@ -540,140 +539,235 @@ ul {
     margin-left :660px;
 } 
 
-/*****   FIN TEAM   ****/
-
-#socialMedia3 a {
-	color: #8c8c8c;
+#myCarousel {
+	width: 100%;
+	padding-left: 33px;
+    padding-right: 33px;
 }
 
-#creative hr, #vert hr, #team hr {
-width: 100px;
+.carousel-indicators {
+    bottom: -40px;
 }
 
-#team1{
-font-style: "Open Sans Extrabold";
-font-weight: bold;
-font-size: 30px;
+.carousel-indicators li {
+    font-family: 'fontawesome';
+    font-size: 18px;
+	background-color: #d5d5d5;
+    line-height: 1;
 }
-#team2{
- color: #979797;
- font-size: 22px;
+
+.carousel-indicators li::before {
+	content: "\f1db";
 }
-.list-group-item{
-  padding-bottom: 35px;
+
+.carousel-indicators li::after {
+	content: "\f1db";
 }
-#carousel{
- padding-bottom: 60px;
- padding-top: 50px;
- background-color: #d8d8d8;
+
+.carousel-indicators .active {
+    background-color: #39a38f;
 }
-#pad{
-padding-right: 28px;
-padding-left: 200px;
+
+.card {
+	width: 100%;
+	height: 306px;
 }
+
 .card-block{
   background-color: #39a38f;
 }
-.card-text{
-  height: 160px;
-}
+
 .list-group{
   height: 80px;
   border-bottom: 3px solid #39a38f;
 }
-#esp{
-  padding-left: 10px;
+
+.list-group-item {
+	padding: 0;
 }
-#jo{
-  margin-top: 25px;
+
+.list-group-item .row {
+	width: 100%;
 }
-#faceicon{
-  padding-left: 110px;
-  margin-top: 25px;
+
+.jo {
+	margin-top: 40px;
+    padding-left: 25px;
 }
+
+.employeeCard1 {
+	padding-right: 7px;
+}
+
+.employeeCard2 {
+	padding-left: 11px;
+	padding-right: 11px;
+}
+
+.employeeCard3 {
+	padding-left: 7px;
+}
+
+.employeeName {
+	font-family: "Open Sans Regular";
+	font-size: 18px;
+	color: #303030;
+	margin-bottom: 0px;
+}
+
+.employeeFonction {
+	font-family: "Open Sans Regular";
+	font-size: 14px;
+	color: #8c8c8c;
+	margin-bottom: 45px;
+}
+
+.socialMedia3 {
+	padding-top: 42px;
+}
+
+.socialMedia3 a {
+	color: #c0c0c0;
+}
+
 .carousel-control-prev {
-  padding-right: 150px;
-  }
+    left: -70px;
+}
+
+.carousel-control-next {
+    right: -75px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url(images/Prev_icon.png);
+    width: 30px;
+    height: 30px;
+}
+
+.carousel-control-next-icon {
+    background-image: url(images/Next_icon.png);
+    width: 30px;
+    height: 30px;
+}
 
 
-  #contact{
-    text-align: center;
-    padding-top: 60px;
-    padding-bottom: 20px;
-  }
-  #contact1{
-  font-weight: bold;
-  font-size: 25px;
-  font-style: "Open Sans Extrabold";
-  }
-  #contact2{
-   color: #979797;
-  }
-#contact3{
+/*****   FIN TEAM   ****/
+
+/*****   Début CONTACT   ****/
+
+#contact{
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+#contact2 {
   background-color: #39a38f;
   height: 500px;
   position:
 }
-.toolip{
-  text-align: center;
-  border: 1px white solid;
-  background: white;
-  width: 150px;
-  height:50px;
-}
+
 #Ro{
-  text-align: center;
-  padding-right: 50px;
-  padding-top: 150px;
-  padding-left: 600px;
-  padding-bottom: 70px;
-  }
-  .arrow-down {
+    margin-top: 10rem;
+	padding-bottom: 70px;
+}
+
+.toolip{
+	background: white;
+    width: 160px;
+    height: 60px;
+    padding-top: 5px;
+}
+
+.arrow-down {
   width: 0;
   height: 0;
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid white;
   margin-left: 56px;
-  margin-top: -10px
+  margin-top: -17px
 }
 
-#contact4{
-  background-color: #d8d8d8;
-  height: 500px;
-  }
-
-#requiered{
-  color: #39a38f;
-padding-left: 154px
-  }
-.btn {
-  background-color: #39a38f;
+#contact3 {
+	background-color: #f0f0f0;
+	height: 602px;
 }
 
 #formulaire{
-  padding-top: 40px;
-  margin-top: 10px;
-  border:10px solid white;
-  background-color: white;
-  height: 650px;
-  width: 1000px;
-  margin-left: 149px;
-
+    padding: 3rem 2rem;
+    background-color: white;
+	position: relative;
+	top: -150px;
 }
+
+#contactinfo{
+  padding-left: 60px;
+}
+
+.requiered{
+	font-family: "Open Sans Regular";
+	font-size: 12px;
+	color: #39a38f;
+    padding-right: 3px;
+    text-align: right;
+	margin-bottom: 3px;
+}
+
+.name{
+	font-family: "Open Sans Regular";
+	font-size: 14px;
+	color: #303030;
+    padding-left: 7px;
+    text-align: left;
+	margin-bottom: 3px;
+}
+
+.form-control {
+	border-radius: 0px;
+}
+
+#contactinfoTitle {
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 23px;
+}
+
+#contactinfoDescription {
+	font-family: "Open Sans Regular";
+	font-size: 14px;
+	color: #898989;
+}
+#contact4{
+  background-color: #d8d8d8;
+  height: 459px;
+  }
+
+#send {
+	background-color: #39a38f;
+	border-radius: 0px;
+	font-family: "Open Sans";
+	font-weight: bold;
+	font-size: 14px;
+	border-color: #39a38f;
+	width: 15%;
+    height: 45px;
+}
+
+
+#info{
+	font-family: "Open Sans Regular";
+	font-size: 18px;
+	padding-top: 0.5rem;
+}
+
 .form-group{
   margin-bottom: -1rem;
 }
 
-#contactinfo{
-  padding-left: 200px;
-}
-#info{
-  font-size: 15px;
-  padding: 0px;
-
-}
 #row3{
   padding-right: 100px;
 }
+
+/*****   FIN CONTACT   ****/
+
 /*****     FIN     ARMANCE       *****/
