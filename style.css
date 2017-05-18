@@ -146,7 +146,7 @@ ul {
 
 #slidetext1 {
 	font-family: "Open Sans Extrabold";
-	font-size: 100px;
+	font-size: 5em;
 	text-shadow: 3px 4px 0px rgba(10, 12, 12, 0.1);
 }
 
@@ -252,11 +252,19 @@ ul {
 
 #logo a span, #Ro p span {
 	color: #39a38f;
- }
+}
 
- #navigation ul li {
-	width: 137px;
- }
+.navbar {
+	padding: 0;
+}
+
+.bg-faded {
+    background: none;
+}
+
+#navigation ul li {
+	width: 90px;
+}
 
 #navigation a {
 	font-family: "Open Sans Regular";
@@ -266,6 +274,7 @@ ul {
 
 #socialMedia {
 	padding-top: 25px;
+	text-align: right;
  }
 
 #socialMedia a {
@@ -370,7 +379,6 @@ ul {
 
 #arrow {
 	padding-top: 10px;
-	padding-left: 25%;
 }
 
 #arrow a {
@@ -440,11 +448,11 @@ ul {
  background-color: #f0f0f0;
  font-family: "Open Sans Regular";
 }
-
+/*
 .numbers1234 {
 	padding-right: 0px;
 }
-
+ 
 #number1, #number4{
 	padding-left: 75px;
 }
@@ -456,13 +464,20 @@ ul {
 #number3 {
 	padding-left: 15px;
 }
+ */
+ 
+.icons {
+	min-width: 70px;
+	height: 70px;
+}
 
+.iconsalign{
+    padding: 0;
+}
 
-
-.iconsalignrigth{
-    padding-right: 0px;
-    padding-left: 0px;
+.iconsalignrigth {
 	padding-top: 13px;
+	text-align: center;
 }
 
 .number1234 {
@@ -481,15 +496,16 @@ ul {
     position: relative;
     top: -13px;
 }
-
+/* 
 .numberTitle1 {
   padding-left: 5px;
 }
-
+ */
 .numberTitle2 {
-  width: 142px;
+  min-width: 142px;
+  width: 100%;
 }
-
+/* 
 .iconsa1 {
 	padding-left: 10px;
 }
@@ -497,7 +513,7 @@ ul {
 .iconsa2 {
 	padding-left: 20px;
 }
-
+ */
 
 #clients{
    background-color: #39a38f;
@@ -515,6 +531,9 @@ ul {
 
 #clientsTitle h3, #clientsTitle p {
 	color: #fff;
+}
+.some_clients {
+	width: 100%;
 }
 
 /*****   FIN ABOUT   ****/
@@ -536,7 +555,8 @@ ul {
     border-left: 20px solid transparent;
     border-right: 20px solid transparent;
     border-bottom: 25px solid #f0f0f0;
-    margin-left :660px;
+	left: 48%;
+    position: relative;
 } 
 
 #myCarousel {
@@ -630,12 +650,8 @@ ul {
 	color: #c0c0c0;
 }
 
-.carousel-control-prev {
-    left: -70px;
-}
-
-.carousel-control-next {
-    right: -75px;
+.carousel-control-prev, .carousel-control-next {
+    width: auto;
 }
 
 .carousel-control-prev-icon {
@@ -669,6 +685,7 @@ ul {
 #Ro{
     margin-top: 10rem;
 	padding-bottom: 70px;
+	padding-left: 42%;
 }
 
 .toolip{
@@ -690,7 +707,6 @@ ul {
 
 #contact3 {
 	background-color: #f0f0f0;
-	height: 602px;
 }
 
 #formulaire{
