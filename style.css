@@ -1,6 +1,7 @@
 /*****     MAIN     STYLE       *****/
 
 body {
+	width: 100%;
 	font-family: "Open Sans";
 	color: #303030;
 }
@@ -114,39 +115,9 @@ ul {
 	padding-left: 5px;
 }
 
-#rectangle {
-	width: 100%;
-	height: 80px;
-	background-color: rgba(10, 10, 10, 0.3);
-	position:  relative;
-    top: 65px;
-	right: -118px;
-	padding-right: 145px;
-    text-align: right;
-    padding-top: 14px;
-}
-
-#rectangle p {
-	font-size: 18px;
-	text-shadow: 1px 3px 0px rgba(10, 12, 12, 0.1);
-	font-style: bold;
-	color: white;
-}
-
-#oblique {
-	width: 100%;
-    height: 110px;
-    background-color: #39a38f;
-    position: relative;
-    top: 41px;
-    right: -235px;
-    transform: rotate(125deg);
-    z-index: 99; /* Standard syntax */
-}
-
 #slidetext1 {
 	font-family: "Open Sans Extrabold";
-	font-size: 100px;
+	font-size: 88px;
 	text-shadow: 3px 4px 0px rgba(10, 12, 12, 0.1);
 }
 
@@ -186,7 +157,8 @@ ul {
 	position: absolute;
 	top: 0;
 	left: 50%;
-	width: 24px;
+	min-width: 24px;
+	width: 100%;
 	height: 24px;
 	margin-left: -12px;
 	-webkit-animation: sdb07 2s infinite;
@@ -255,7 +227,8 @@ ul {
  }
 
  #navigation ul li {
-	width: 137px;
+	min-width: 137px;
+	width: 100%;
  }
 
 #navigation a {
@@ -288,7 +261,8 @@ ul {
 }
 
 #services #services123  hr, #services #services456  hr {
-	width: 80px;
+	min-width: 80px;
+	width: 100%;
 	margin-left: 0px;
 	margin-top: 0px;
 }
@@ -445,18 +419,20 @@ ul {
 	padding-right: 0px;
 }
 
-#number1, #number4{
-	padding-left: 75px;
+#number1 {
+	padding-left: 50px;
 }
 
 #number2 {
-	padding-left: 55px;
+	padding-left: 60px;
 }
 
 #number3 {
-	padding-left: 15px;
+	padding-left: 65px;
 }
-
+#number4{
+	padding-left: 120px;
+}
 
 
 .iconsalignrigth{
@@ -487,7 +463,8 @@ ul {
 }
 
 .numberTitle2 {
-  width: 142px;
+  min-width: 142px;
+	width: 100%;
 }
 
 .iconsa1 {
@@ -504,7 +481,7 @@ ul {
 }
 
 #clientsTitle {
-	padding-top: 5rem;	
+	padding-top: 5rem;
 }
 
 #clientsTitle p {
@@ -537,7 +514,7 @@ ul {
     border-right: 20px solid transparent;
     border-bottom: 25px solid #f0f0f0;
     margin-left :660px;
-} 
+}
 
 #myCarousel {
 	width: 100%;
@@ -640,13 +617,13 @@ ul {
 
 .carousel-control-prev-icon {
     background-image: url(images/Prev_icon.png);
-    width: 30px;
+    min-width: 30px;
     height: 30px;
 }
 
 .carousel-control-next-icon {
     background-image: url(images/Next_icon.png);
-    width: 30px;
+    min-width: 30px;
     height: 30px;
 }
 
@@ -673,7 +650,7 @@ ul {
 
 .toolip{
 	background: white;
-    width: 160px;
+    min-width: 160px;
     height: 60px;
     padding-top: 5px;
 }
@@ -684,7 +661,7 @@ ul {
   border-left: 20px solid transparent;
   border-right: 20px solid transparent;
   border-top: 20px solid white;
-  margin-left: 56px;
+  margin-left: 102px;
   margin-top: -17px
 }
 
@@ -749,7 +726,7 @@ ul {
 	font-weight: bold;
 	font-size: 14px;
 	border-color: #39a38f;
-	width: 15%;
+	min-width: 15%;
     height: 45px;
 }
 
@@ -766,6 +743,9 @@ ul {
 
 #row3{
   padding-right: 100px;
+}
+.lan{
+	width: 100%;
 }
 
 /*****   FIN CONTACT   ****/
